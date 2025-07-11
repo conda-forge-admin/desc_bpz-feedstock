@@ -22,7 +22,7 @@ outputs:
     build:
       number: {{ build }}
       noarch: python
-      script: build_me.sh
+    script: build_me.sh
     requirements:
       host:
         - python {{ python_min }}
